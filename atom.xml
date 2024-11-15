@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://amor-maker.github.io</id>
+    <title>羊小恩</title>
+    <updated>2024-11-15T15:13:23.311Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://amor-maker.github.io"/>
+    <link rel="self" href="https://amor-maker.github.io/atom.xml"/>
+    <subtitle>欢迎诸位莅临我的第一个博客！</subtitle>
+    <logo>https://amor-maker.github.io/images/avatar.png</logo>
+    <icon>https://amor-maker.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2024, 羊小恩</rights>
+    <entry>
+        <title type="html"><![CDATA[云吞：一碗汤里的美食传奇]]></title>
+        <id>https://amor-maker.github.io/post/yun-tun-yi-wan-tang-li-de-mei-shi-chuan-qi/</id>
+        <link href="https://amor-maker.github.io/post/yun-tun-yi-wan-tang-li-de-mei-shi-chuan-qi/">
+        </link>
+        <updated>2024-11-13T14:52:37.000Z</updated>
+        <summary type="html"><![CDATA[<p>云吞，这道源自中国南方的传统美食，以其皮薄馅嫩、汤鲜味美而闻名于世。每一颗小巧精致的云吞，都是厨师匠心独运的杰作，承载着丰富的文化内涵和家的味道。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>云吞，这道源自中国南方的传统美食，以其皮薄馅嫩、汤鲜味美而闻名于世。每一颗小巧精致的云吞，都是厨师匠心独运的杰作，承载着丰富的文化内涵和家的味道。</p>
+<!-- more -->
+<h2 id="历史渊源">历史渊源</h2>
+<p>云吞的历史可以追溯到几百年前，最初是广东地区的一种特色小吃。随着时间的推移，云吞逐渐传播至全国各地乃至海外，发展出了各式各样的风味和制作方法！<a href="https://www.bilibili.com/video/BV1NC41147BA/?share_source=copy_web&amp;vd_source=e73be883f67d8b1e923da76ba606704a" title="云吞的历史">了解云吞更多历史故事</a></p>
+<h2 id="制作工艺">制作工艺</h2>
+<h3 id="馅料准备">馅料准备</h3>
+<p>云吞的馅料通常选用新鲜的猪肉、虾仁等，加入适量的调料，如姜末、葱花、酱油等，搅拌均匀后备用。</p>
+<h3 id="饺皮制作">饺皮制作</h3>
+<p>云吞皮的制作是一门艺术，需要选用高筋面粉，经过多次揉搓、擀制，最终制成薄如蝉翼的面皮！</p>
+<h3 id="包裹技巧">包裹技巧</h3>
+<p>将馅料放入云吞皮中央，轻轻折叠，捏紧边缘，形成一个美丽的小船形状。这一步骤考验着厨师的手艺和耐心。</p>
+<h3 id="烹饪过程">烹饪过程</h3>
+<p>将包好的云吞放入沸水中煮熟，同时准备一碗清汤，加入适量的盐、鸡精调味。最后，将煮熟的云吞捞出，放入汤中，撒上葱花、香菜即可。</p>
+<h2 id="地方特色">地方特色</h2>
+<p>在中国不同的地区，云吞有着各自独特的风味。例如，广东的云吞汤清淡鲜美；四川的辣子云吞则麻辣十足；上海的蟹粉云吞则以蟹肉为馅，鲜美无比。</p>
+<h2 id="结语">结语</h2>
+<p>云吞不仅是一道美味佳肴，更是中华饮食文化的瑰宝。每当一碗热腾腾的云吞端上桌时，都能让人感受到家的温暖和幸福。</p>
+<hr>
+<p>希望这篇文章能够让你对云吞有更深入的了解，不妨尝试在家动手做一做，体验一下制作的乐趣吧！<img src="https://amor-maker.github.io/post-images/1731586842674.gif" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[你好！Gridea]]></title>
+        <id>https://amor-maker.github.io/post/hello-gridea/</id>
+        <link href="https://amor-maker.github.io/post/hello-gridea/">
+        </link>
+        <updated>2018-12-11T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
+✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
+✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+<!-- more -->
+<p><a href="https://github.com/getgridea/gridea">Github</a><br>
+<a href="https://gridea.dev/">Gridea 主页</a><br>
+<a href="https://fehey.com/">示例网站</a></p>
+<h2 id="特性">特性👇</h2>
+<p>📝  你可以使用最酷的 <strong>Markdown</strong> 语法，进行快速创作</p>
+<p>🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片</p>
+<p>🏷️  你可以对文章进行标签分组</p>
+<p>📋  你可以自定义菜单，甚至可以创建外部链接菜单</p>
+<p>💻  你可以在 <strong>Windows</strong>，<strong>MacOS</strong> 或 <strong>Linux</strong> 设备上使用此客户端</p>
+<p>🌎  你可以使用 <strong>𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌</strong> 或 <strong>Coding Pages</strong> 向世界展示，未来将支持更多平台</p>
+<p>💬  你可以进行简单的配置，接入 <a href="https://github.com/gitalk/gitalk">Gitalk</a> 或 <a href="https://github.com/SukkaW/DisqusJS">DisqusJS</a> 评论系统</p>
+<p>🇬🇧  你可以使用<strong>中文简体</strong>或<strong>英语</strong></p>
+<p>🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力</p>
+<p>🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步</p>
+<p>🌱 当然 <strong>Gridea</strong> 还很年轻，有很多不足，但请相信，它会不停向前 🏃</p>
+<p>未来，它一定会成为你离不开的伙伴</p>
+<p>尽情发挥你的才华吧！</p>
+<p>😘 Enjoy~<br>
+<img src="https://amor-maker.github.io/post-images/1731586293464.gif" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
+</feed>
