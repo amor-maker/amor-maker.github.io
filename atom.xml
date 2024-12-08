@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://liyujie35.asia</id>
+    <title>羊小思</title>
+    <updated>2024-12-08T13:21:54.793Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://liyujie35.asia"/>
+    <link rel="self" href="https://liyujie35.asia/atom.xml"/>
+    <subtitle>欢迎来到羊小窝，灵光一闪小天地！😎</subtitle>
+    <logo>https://liyujie35.asia/images/avatar.png</logo>
+    <icon>https://liyujie35.asia/favicon.ico</icon>
+    <rights>All rights reserved 2024, 羊小思</rights>
+    <entry>
+        <title type="html"><![CDATA[游戏]]></title>
+        <id>https://liyujie35.asia/post/you-xi/</id>
+        <link href="https://liyujie35.asia/post/you-xi/">
+        </link>
+        <updated>2024-12-08T04:54:26.000Z</updated>
+        <content type="html"><![CDATA[<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+	<meta content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, width=device-width" /> 
+	<title>经典赛车小游戏 - xcLeigh</title>
+	<link rel="icon" type="image/png" href="images/favicon.ico" /> 
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body oncontextmenu="return false;" onselectstart="return false;" unselectable="on" ondragstart="return false;">
+	<canvas height="450" width="750"></canvas>
+<pre><code>&lt;!-- 四个角链接，底部说明 --&gt;
+&lt;div style=&quot;position:absolute;left:0;top:0; width:80px;height:80px;&quot;&gt;
+	&lt;div  style=&quot;position:absolute;left:0;bottom:0; width:80px;height:80px;text-align:center;line-height:80px;color:#0F85F4;z-index:999;&quot;&gt;
+	&lt;a href=&quot;https://blog.csdn.net/weixin_43151418/article/details/127635252&quot; title=&quot;html实现飞机小游戏(源码)&quot; target=&quot;_blank&quot; style=&quot;text-decoration:none; font-weight:bold&quot;&gt;打飞机&lt;/a&gt;
+	&lt;/div&gt;
+	  &lt;div class='classScale' style='display:flex; justify-content: center; align-items: center; width:80px;height:80px;border-radius:50%; opacity: 0.5;'&gt;
+	  &lt;/div&gt;
+	  &lt;div class='classScale1' style='position:relative; top: -80px;width:80px;height:80px;border-radius:50%; opacity: 0.5;'&gt;
+	  &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div style=&quot;position:absolute;right:0;top:0; width:80px;height:80px;&quot;&gt;
+	&lt;div  style=&quot;position:absolute;left:0;bottom:0; width:80px;height:80px;text-align:center;line-height:80px;color:#0BABC4;z-index:999;&quot;&gt;
+		&lt;a href=&quot;https://blog.csdn.net/weixin_43151418/article/details/127631871&quot; title=&quot;html实现贪吃蛇游戏(源码)&quot; target=&quot;_blank&quot; style=&quot;text-decoration:none; font-weight:bold&quot;&gt;贪吃蛇&lt;/a&gt;
+	&lt;/div&gt;
+	  &lt;div class='classScale' style='display:flex; justify-content: center; align-items: center; width:80px;height:80px;border-radius:50%; opacity: 0.5;'&gt;
+	  &lt;/div&gt;
+	  &lt;div class='classScale1' style='position:relative; top: -80px;width:80px;height:80px;border-radius:50%; opacity: 0.5;'&gt;
+	  &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div style=&quot;position:absolute;right:0;bottom:0; width:80px;height:80px;&quot;&gt;
+	&lt;div  style=&quot;position:absolute;left:0;bottom:0; width:80px;height:80px;text-align:center;line-height:80px;color:red;z-index:999;&quot;&gt;
+		&lt;a href=&quot;https://blog.csdn.net/weixin_43151418/article/details/127619801&quot; title=&quot;html制作好看的五子棋（源码）&quot; target=&quot;_blank&quot; style=&quot;text-decoration:none; font-weight:bold&quot;&gt;五子棋&lt;/a&gt;
+	&lt;/div&gt;
+	  &lt;div class='classScale' style='display:flex; justify-content: center; align-items: center; width:80px;height:80px;border-radius:50%; opacity: 0.5;'&gt;
+	  &lt;/div&gt;
+	  &lt;div class='classScale1' style='position:relative; top: -80px;width:80px;height:80px;border-radius:50%; opacity: 0.5;'&gt;
+	  &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div style=&quot;position:absolute;left:0;bottom:0; width:80px;height:80px;&quot;&gt;
+	&lt;div  style=&quot;position:absolute;left:0;bottom:0; width:80px;height:80px;text-align:center;line-height:80px;color:orange;z-index:999;&quot;&gt;
+		&lt;a href=&quot;https://blog.csdn.net/weixin_43151418/article/details/127886480&quot; title=&quot;html实现扫雷小游戏(附源码)&quot; target=&quot;_blank&quot; style=&quot;text-decoration:none; font-weight:bold;&quot;&gt;扫雷&lt;/a&gt;
+	&lt;/div&gt;
+	  &lt;div class='classScale' style='display:flex; justify-content: center; align-items: center; width:80px;height:80px;border-radius:50%; opacity: 0.5;'&gt;
+	  &lt;/div&gt;
+	  &lt;div class='classScale1' style='position:relative; top: -80px;width:80px;height:80px;border-radius:50%; opacity: 0.5;'&gt;
+	  &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div  style=&quot;position:absolute;left:0;bottom:0; width:100%;height:70px; line-height:30px; text-align:center; z-index:99;&quot;&gt;
+	&lt;div style=&quot;color:white;&quot;&gt;控制键盘的 &lt;span style=&quot;font-weight: bold; color: orange;&quot;&gt;↑ ← ↓ →&lt;/span&gt; 来行驶车子&lt;/div&gt;
+  	&lt;a href=&quot;https://blog.csdn.net/weixin_43151418&quot; target=&quot;_blank&quot; style=&quot;text-decoration:none; font-weight:bold;color:white;&quot;&gt;xcLeigh | 星空系列 | 经典赛车小游戏&lt;/a&gt;
+  &lt;/div&gt;
+
+&lt;script type=&quot;text/javascript&quot; src=&quot;js/main.js&quot;&gt;&lt;/script&gt;
+</code></pre>
+</body>
+</html>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[夜幕下的沉思]]></title>
+        <id>https://liyujie35.asia/post/ye-mu-xia-de-chen-si/</id>
+        <link href="https://liyujie35.asia/post/ye-mu-xia-de-chen-si/">
+        </link>
+        <updated>2024-11-22T10:29:46.000Z</updated>
+        <summary type="html"><![CDATA[<p><font size="8">深秋</font>的夜晚，我独坐斗室，四周寂静。案头一盏微弱的<font size="8">灯光</font>，照亮了这小小的空间，也照亮了我的思绪。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p><font size="8">深秋</font>的夜晚，我独坐斗室，四周寂静。案头一盏微弱的<font size="8">灯光</font>，照亮了这小小的空间，也照亮了我的思绪。</p>
+<!-- more -->
+<h3 id="喧嚣背后的孤独">喧嚣背后的孤独</h3>
+<p>城市的夜晚，霓虹闪烁，车水马龙。表面的繁华背后，却是无数孤独的灵魂。人们忙于追逐目标，却忽略了内心的真正需求。在这个物欲横流的时代，真正的安宁与满足变得越来越难寻。</p>
+<figure data-type="image" tabindex="1"><img src="https://s1.imagehub.cc/images/2024/11/12/d97e8fb566cf40cbf024283153fb087d.jpeg" alt="城市的夜晚" loading="lazy"></figure>
+<h3 id="社会的虚伪">社会的虚伪</h3>
+<p>社交媒体上，人们晒幸福、秀美好，但在现实中，却少有人愿意倾听他人的苦楚。朋友圈里的点赞和评论，成了维持表面和谐的工具，让人感到更加孤独和无助。</p>
+<div style="position: relative; padding: 30% 45%;">
+    <iframe style="
+        position: absolute; 
+        width: 100%; 
+        height: 100%; 
+        left: 0; top: 0;" 
+        src="//player.bilibili.com/player.html?isOutside=true&aid=661305455&bvid=BV1Sh4y1a7vr&cid=1276562041&p=1&high_quality=1" 
+        scrolling="no" 
+        border="0" 
+        frameborder="no" 
+        framespacing="0" 
+        allowfullscreen="true">
+    </iframe>
+</div>
+<h3 id="信息的迷雾">信息的迷雾</h3>
+<p>信息爆炸的时代，大量新闻和信息涌入视野，但其中多少值得深思？虚假信息和炒作事件层出不穷，人们被表象迷惑，失去了独立思考的能力。社会的深层次矛盾和问题，被掩盖在表面的繁荣之下。</p>
+<div style="position: relative; padding: 30% 45%;">
+    <iframe style="
+        position: absolute; 
+        width: 100%; 
+        height: 100%; 
+        left: 0; top: 0;" 
+        src="//player.bilibili.com/player.html?isOutside=true&aid=249801580&bvid=BV1Jv411T7MA&cid=388413168&p=1&page=1&high_quality=1" 
+        scrolling="no" 
+        border="0" 
+        frameborder="no" 
+        framespacing="0" 
+        allowfullscreen="true">
+    </iframe>
+</div>
+<h3 id="结语">结语</h3>
+<p>在寂静中反思，在孤独中成长。唯有内心的光亮，能让我们在黑暗中找到方向。让我们保持清醒和独立，不被浮躁的社会所左右，直到黎明到来。</p>
+<p>当第一缕阳光穿透窗户，新的旅程又将开始。</p>
+<figure data-type="image" tabindex="2"><img src="https://s1.imagehub.cc/images/2024/11/12/556fe6bd78ea2f992a88457d91ca7f42.jpeg" alt="黎明的曙光" loading="lazy"></figure>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[云吞：一碗汤里的美食传奇]]></title>
+        <id>https://liyujie35.asia/post/yun-tun-yi-wan-tang-li-de-mei-shi-chuan-qi/</id>
+        <link href="https://liyujie35.asia/post/yun-tun-yi-wan-tang-li-de-mei-shi-chuan-qi/">
+        </link>
+        <updated>2024-11-17T14:52:37.000Z</updated>
+        <summary type="html"><![CDATA[<p>云吞，这道源自中国南方的传统美食，以其皮薄馅嫩、汤鲜味美而闻名于世。每一颗小巧精致的云吞，都是厨师匠心独运的杰作，承载着丰富的文化内涵和家的味道。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>云吞，这道源自中国南方的传统美食，以其皮薄馅嫩、汤鲜味美而闻名于世。每一颗小巧精致的云吞，都是厨师匠心独运的杰作，承载着丰富的文化内涵和家的味道。</p>
+<!-- more -->
+<h2 id="历史渊源">历史渊源</h2>
+<p>云吞的历史可以追溯到几百年前，最初是广东地区的一种特色小吃。随着时间的推移，云吞逐渐传播至全国各地乃至海外，发展出了各式各样的风味和制作方法！<a href="https://www.bilibili.com/video/BV1NC41147BA/?share_source=copy_web&amp;vd_source=e73be883f67d8b1e923da76ba606704a" title="云吞的历史">了解云吞更多历史故事</a></p>
+<div style="position: relative; padding: 30% 45%;">
+    <iframe style="
+        position: absolute; 
+        width: 100%; 
+        height: 100%; 
+        left: 0; top: 0;" 
+        src="//player.bilibili.com/player.html?isOutside=true&aid=1950442258&bvid=BV1NC41147BA&cid=1432302740&p=1&high_quality=1" 
+        scrolling="no" 
+        border="0" 
+        frameborder="no" 
+        framespacing="0" 
+        allowfullscreen="true">
+    </iframe>
+</div>
+<h2 id="制作工艺">制作工艺</h2>
+<h3 id="馅料准备">馅料准备</h3>
+<p>云吞的馅料通常选用新鲜的猪肉、虾仁等，加入适量的调料，如姜末、葱花、酱油等，搅拌均匀后备用。</p>
+<h3 id="饺皮制作">饺皮制作</h3>
+<p>云吞皮的制作是一门艺术，需要选用高筋面粉，经过多次揉搓、擀制，最终制成薄如蝉翼的面皮！</p>
+<h3 id="包裹技巧">包裹技巧</h3>
+<p>将馅料放入云吞皮中央，轻轻折叠，捏紧边缘，形成一个美丽的小船形状。这一步骤考验着厨师的手艺和耐心。</p>
+<h3 id="烹饪过程">烹饪过程</h3>
+<p>将包好的云吞放入沸水中煮熟，同时准备一碗清汤，加入适量的盐、鸡精调味。最后，将煮熟的云吞捞出，放入汤中，撒上葱花、香菜即可。</p>
+<h2 id="地方特色">地方特色</h2>
+<p>在中国不同的地区，云吞有着各自独特的风味。例如，广东的云吞汤清淡鲜美；四川的辣子云吞则麻辣十足；上海的蟹粉云吞则以蟹肉为馅，鲜美无比。</p>
+<h2 id="结语">结语</h2>
+<p>云吞不仅是一道美味佳肴，更是中华饮食文化的瑰宝。每当一碗热腾腾的云吞端上桌时，都能让人感受到家的温暖和幸福。🤤</p>
+<hr>
+<p>希望这篇文章能够让你对云吞有更深入的了解，不妨尝试在家动手做一做，体验一下制作的乐趣吧！<img src="https://liyujie35.asia/post-images/1731586842674.gif" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[榆树：坚韧与历史的见证者]]></title>
+        <id>https://liyujie35.asia/post/yu-shu-jian-ren-yu-li-shi-de-jian-zheng-zhe/</id>
+        <link href="https://liyujie35.asia/post/yu-shu-jian-ren-yu-li-shi-de-jian-zheng-zhe/">
+        </link>
+        <updated>2024-11-16T10:32:08.000Z</updated>
+        <summary type="html"><![CDATA[<p>榆树（学名：<em>Ulmus</em> spp.），作为自然界中的一员，不仅以其雄壮的姿态装点着大地，更承载了深厚的文化与历史意义。分布于全球多个角落的榆树，种类繁多，从小巧的灌木到参天大树，无一不展现出其顽强的生命力和适应能力。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>榆树（学名：<em>Ulmus</em> spp.），作为自然界中的一员，不仅以其雄壮的姿态装点着大地，更承载了深厚的文化与历史意义。分布于全球多个角落的榆树，种类繁多，从小巧的灌木到参天大树，无一不展现出其顽强的生命力和适应能力。</p>
+<!-- more -->
+<h2 id="自然特征">自然特征</h2>
+<p>榆树属于榆科植物，其叶片多为卵形或椭圆形，边缘有锯齿，春季嫩叶初展时，满树翠绿，给人以生机勃勃之感。夏季，榆树茂密的树冠成为遮阳避暑的佳处，而秋季则转为金黄色，为大地增添了几分暖意。特别值得一提的是，某些榆树种在遭受荷兰榆树病等病害后仍能顽强生存，展现了极强的抗逆性。</p>
+<figure data-type="image" tabindex="1"><img src="https://s3.bmp.ovh/imgs/2024/05/26/b0c00f896c633786.jpeg" alt="榆树叶子" loading="lazy"></figure>
+<h2 id="文化象征">文化象征</h2>
+<p>在中国文化中，榆树常常被视为坚韧不拔和长寿的象征。古诗文中不乏对榆树的赞美，如“榆柳荫后檐，桃李罗堂前”，描绘了一幅和谐自然的田园风光。榆钱（榆树的翅果）因其形状似铜钱，在民间也被赋予了富贵吉祥的寓意。</p>
+<h2 id="历史见证">历史见证</h2>
+<p>忆起小学时有一课文，曰榆钱饭，听闻这种既菜又饭的神奇树叶时总啧啧称奇，而历史上，榆树见证了无数的变迁。在欧洲，许多古老的城镇中心都能见到巨大的老榆树，它们像是守护神一般，历经数百年风雨，目睹了城市的兴衰更迭。在中国，不少古榆至今仍挺立于乡间村头，成为村落的标志和村民的集体记忆。</p>
+<div style="position: relative; padding: 30% 45%;">
+    <iframe style="
+        position: absolute; 
+        width: 100%; 
+        height: 100%; 
+        left: 0; top: 0;" 
+        src="//player.bilibili.com/player.html?isOutside=true&aid=625596768&bvid=BV1Mt4y117C6&cid=187685430&p=1&high_quality=1" 
+        scrolling="no" 
+        border="0" 
+        frameborder="no" 
+        framespacing="0" 
+        allowfullscreen="true">
+    </iframe>
+</div>
+<h3 id="保护现状">保护现状</h3>
+<p>然而，随着城市化进程的加快和环境变化，榆树面临着诸多威胁。荷兰榆树病等疾病的传播，使得一些地区的榆树种群急剧减少。因此，保护榆树，不仅是保护一个物种，更是保护生态多样性和人类共同的记忆。</p>
+<h2 id="结语">结语</h2>
+<p>在现代社会的快节奏中，让我们不妨放慢脚步，去欣赏那些静默伫立的榆树，感受它们传递给我们的坚韧与和平。通过科学研究与公众教育，共同努力保护这些自然界的宝贵财富，让榆树的故事得以延续，让未来的孩子们也能在榆阴下乘凉，聆听岁月的故事。</p>
+<hr>
+<p><strong>参考资料：</strong></p>
+<ul>
+<li><a href="https://b23.tv/Vgv7AdN">关于榆树的更多科学信息</a></li>
+<li><a href="https://www.zhihu.com/question/422485314/answer/1509800675">榆树保护项目</a></li>
+</ul>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[庆祝中国共产党成立103周年：从历史深处走来的辉煌]]></title>
+        <id>https://liyujie35.asia/post/qing-zhu-zhong-guo-gong-chan-dang-cheng-li-103-zhou-nian-cong-li-shi-shen-chu-zou-lai-de-hui-huang/</id>
+        <link href="https://liyujie35.asia/post/qing-zhu-zhong-guo-gong-chan-dang-cheng-li-103-zhou-nian-cong-li-shi-shen-chu-zou-lai-de-hui-huang/">
+        </link>
+        <updated>2024-07-01T10:34:50.000Z</updated>
+        <summary type="html"><![CDATA[<p>今年，我们迎来了中国共产党成立103周年的伟大时刻。自1921年成立以来，中国共产党带领中国人民走过了一条充满艰辛与辉煌的道路，从南湖红船的微光到新时代的强盛，每一个历史瞬间都值得我们铭记和庆祝。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>今年，我们迎来了中国共产党成立103周年的伟大时刻。自1921年成立以来，中国共产党带领中国人民走过了一条充满艰辛与辉煌的道路，从南湖红船的微光到新时代的强盛，每一个历史瞬间都值得我们铭记和庆祝。</p>
+<!-- more -->
+<h2 id="历史的光辉经典故事与珍贵记忆">历史的光辉：经典故事与珍贵记忆</h2>
+<h3 id="故事一南湖红船-中国共产党的诞生地">故事一：南湖红船 - 中国共产党的诞生地</h3>
+<p>1921年，中国共产党第一次全国代表大会在嘉兴南湖的一艘游船上秘密召开，这艘红船成为了中国共产党历史的起点。<img src="https://so1.360tres.com/t012dfe7ff1afa554c2.jpg" alt="小船起点" title="小船起点" loading="lazy"> <a href="https://www.example.com/jinggangshan-revolution-history">中国革命启史</a></p>
+<h3 id="故事二井冈山精神-革命的摇篮">故事二：井冈山精神 - 革命的摇篮</h3>
+<p>井冈山，被誉为“革命的摇篮”，在这里，毛泽东同志提出了“农村包围城市”的战略思想，开创了中国革命的新道路。<img src="https://s3.bmp.ovh/imgs/2024/07/06/f1dba7cb3a63c009.jpeg" alt="井冈山风光" title="井冈山风光" loading="lazy"> <a href="https://www.example.com/jinggangshan-revolution-history">探索井冈山革命历史</a></p>
+<h3 id="故事三长征-不屈的意志">故事三：长征 - 不屈的意志</h3>
+<p>长征，是中国共产党领导下的红军进行的一次战略转移，历时两年，行程两万五千里，途中经历了无数艰难险阻，彰显了红军战士的坚定信念和顽强斗志。<img src="https://s3.bmp.ovh/imgs/2024/07/06/49e72b15e1a53758.jpeg" alt="长征路线图" title="长征路线图" loading="lazy"> <a href="https://www.example.com/changzheng-history">重温长征历史</a></p>
+<h3 id="故事四改革开放-创新的勇气">故事四：改革开放 - 创新的勇气</h3>
+<p>1978年，中国共产党十一届三中全会开启了改革开放的伟大进程，从此中国经济社会发生了翻天覆地的变化，成为世界第二大经济体。<img src="https://s3.bmp.ovh/imgs/2024/07/06/86164ded6d8b4f4d.jpeg" alt="深圳特区" title="深圳特区" loading="lazy"> <a href="https://www.example.com/46-years-of-reform-and-opening-up">改革开放46年成就</a></p>
+<h2 id="当代先锋优秀党员事迹">当代先锋：优秀党员事迹</h2>
+<h3 id="事迹一张桂梅-燃灯者照亮山区女孩的未来">事迹一：张桂梅 - 燃灯者照亮山区女孩的未来</h3>
+<p>张桂梅，一位扎根云南山区的教师，她创办了全国第一所免费女子高中，帮助数千名山区女孩走出大山，改变命运。她的事迹感动了无数人，被授予“全国脱贫攻坚楷模”称号。<img src="https://s3.bmp.ovh/imgs/2024/07/06/6126ebfebbbc23ba.png" alt="张桂梅" title="张桂梅老师" loading="lazy"> <a href="https://www.example.com/story-of-zhang-guimei">了解更多关于张桂梅的故事</a></p>
+<h3 id="事迹二黄文秀-青春献给扶贫事业">事迹二：黄文秀 - 青春献给扶贫事业</h3>
+<p>黄文秀，广西乐业县百坭村第一书记，她放弃大城市的工作机会，毅然回到家乡投身扶贫事业，直至生命最后一刻。她的青春与热血，永远留在了那片她深爱的土地上。<img src="https://s3.bmp.ovh/imgs/2024/07/06/09e3dab8ad95b7d0.jpeg" alt="黄文秀" title="黄文秀" loading="lazy"> <a href="https://www.example.com/huang-wenxiu-poverty-alleviation">黄文秀的扶贫之路</a></p>
+<h3 id="事迹三钟南山-抗疫英雄">事迹三：钟南山 - 抗疫英雄</h3>
+<p>钟南山院士，在2003年非典疫情和2020年新冠疫情中，都冲在抗疫一线，以其卓越的专业能力和无私的奉献精神，赢得了全国人民的尊敬。他不仅是医学界的泰斗，更是人民心中的英雄。<img src="https://s3.bmp.ovh/imgs/2024/07/06/08789233e7fc6754.jpeg" alt="钟南山" title="钟南山院士" loading="lazy"> <a href="https://www.example.com/zhong-nanshan-anti-epidemic-story">钟南山院士的抗疫故事</a></p>
+<h2 id="国际视野中国共产党与世界">国际视野：中国共产党与世界</h2>
+<h3 id="角色与影响">角色与影响</h3>
+<p>中国共产党不仅是领导中国发展的重要力量，也在全球治理中扮演着日益重要的角色。从积极参与联合国事务，到推动“一带一路”倡议，中国共产党展现了一个负责任大国的担当，为解决全球性问题提供了中国方案。</p>
+<h3 id="一带一路倡议">“一带一路”倡议</h3>
+<p>“一带一路”倡议自提出以来，已连接起亚洲、欧洲、非洲等多个国家和地区，促进了基础设施建设、贸易往来和文化交流。它不仅推动了沿线国家的经济发展，也加深了各国人民之间的友谊。<img src="https://s3.bmp.ovh/imgs/2024/07/06/90d00f4dab37841a.jpeg" alt="一带一路地图" title="一带一路地图" loading="lazy"> <a href="https://www.example.com/belt-and-road-information">更多关于一带一路的信息</a></p>
+<h3 id="国际合作与抗疫">国际合作与抗疫</h3>
+<p>在全球抗击新冠疫情的过程中，中国共产党展现了国际主义精神，向多个国家提供了医疗援助，分享了疫情防控经验，为构建人类卫生健康共同体作出了积极贡献。<img src="https://s3.bmp.ovh/imgs/2024/07/06/4f610c5277c8d56f.jpeg" alt="国际合作抗疫" title="国际合作抗疫" loading="lazy"> <a href="https://www.example.com/china-role-in-international-epidemic-control">中国在国际抗疫中的作用</a></p>
+<h3 id="气候变化与绿色发展">气候变化与绿色发展</h3>
+<p>面对全球气候变化挑战，中国共产党倡导绿色低碳发展，承诺力争2030年前实现碳达峰、2060年前实现碳中和，这一目标不仅对中国自身意义重大，也为全球气候治理注入了正能量。<img src="https://s3.bmp.ovh/imgs/2024/07/06/c7a502ba06158cd7.jpeg" alt="中国绿色发展" title="中国绿色发展" loading="lazy"> <a href="https://www.example.com/china-green-development-global-climate-action">中国绿色发展与全球气候行动</a></p>
+<h2 id="结语迈向未来">结语：迈向未来</h2>
+<p>站在103年辉煌历史的新起点，中国共产党将继续带领中国人民向着更加美好的未来前进，同时，也将与世界各国携手合作，为构建人类命运共同体贡献智慧和力量。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[你好！Gridea]]></title>
+        <id>https://liyujie35.asia/post/hello-gridea/</id>
+        <link href="https://liyujie35.asia/post/hello-gridea/">
+        </link>
+        <updated>2018-12-11T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
+✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
+✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+<!-- more -->
+<p><a href="https://github.com/getgridea/gridea">Github</a><br>
+<a href="https://gridea.dev/">Gridea 主页</a><br>
+<a href="https://fehey.com/">示例网站</a></p>
+<h2 id="特性">特性👇</h2>
+<p>📝  你可以使用最酷的 <strong>Markdown</strong> 语法，进行快速创作</p>
+<p>🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片</p>
+<p>🏷️  你可以对文章进行标签分组</p>
+<p>📋  你可以自定义菜单，甚至可以创建外部链接菜单</p>
+<p>💻  你可以在 <strong>Windows</strong>，<strong>MacOS</strong> 或 <strong>Linux</strong> 设备上使用此客户端</p>
+<p>🌎  你可以使用 <strong>𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌</strong> 或 <strong>Coding Pages</strong> 向世界展示，未来将支持更多平台</p>
+<p>💬  你可以进行简单的配置，接入 <a href="https://github.com/gitalk/gitalk">Gitalk</a> 或 <a href="https://github.com/SukkaW/DisqusJS">DisqusJS</a> 评论系统</p>
+<p>🇬🇧  你可以使用<strong>中文简体</strong>或<strong>英语</strong></p>
+<p>🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力</p>
+<p>🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步</p>
+<p>🌱 当然 <strong>Gridea</strong> 还很年轻，有很多不足，但请相信，它会不停向前 🏃</p>
+<p>未来，它一定会成为你离不开的伙伴</p>
+<p>尽情发挥你的才华吧！</p>
+<p>😘 Enjoy~<br>
+<img src="https://liyujie35.asia/post-images/1731586293464.gif" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
+</feed>
